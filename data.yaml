@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 11
+names: ['Ambulance', 'Bicycle', 'Bus', 'Jeepney', 'Motorcycle', 'Multicab', 'Pickup', 'SUV', 'Sedan', 'Truck', 'Van']
+
+roboflow:
+  workspace: archie-junio-dxv5t
+  project: car-detection-model-bwjpb
+  version: 17
+  license: Public Domain
+  url: https://universe.roboflow.com/archie-junio-dxv5t/car-detection-model-bwjpb/dataset/17
